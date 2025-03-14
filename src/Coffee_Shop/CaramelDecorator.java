@@ -1,4 +1,6 @@
-public class CaramelDecorator extends CoffeeDecorator{
+package Coffee_Shop;
+
+public class CaramelDecorator extends CoffeeDecorator {
     public CaramelDecorator(Coffee decoratedCoffee){
         super(decoratedCoffee);
     }

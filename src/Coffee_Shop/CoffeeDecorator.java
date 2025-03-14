@@ -1,3 +1,5 @@
+package Coffee_Shop;
+
 abstract public class CoffeeDecorator implements Coffee {
     protected Coffee decoratedCoffee;
     public CoffeeDecorator(Coffee coffee) {

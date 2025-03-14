@@ -1,4 +1,6 @@
-public class Espresso implements Coffee{
+package Coffee_Shop;
+
+public class Espresso implements Coffee {
 
     @Override
     public double getCost() {
@@ -7,6 +9,6 @@ public class Espresso implements Coffee{
 
     @Override
     public String getDescription() {
-        return "Espresso";
+        return "Coffee_Shop.Espresso";
     }
 }

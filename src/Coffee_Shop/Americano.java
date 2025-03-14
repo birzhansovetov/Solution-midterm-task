@@ -1,3 +1,5 @@
+package Coffee_Shop;
+
 public class Americano implements Coffee {
 
     @Override
@@ -7,6 +9,6 @@ public class Americano implements Coffee {
 
     @Override
     public String getDescription() {
-        return "Americano";
+        return "Coffee_Shop.Americano";
     }
 }
